@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../../assets/images/LogoSite.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>GoldenGoals</title>
+</head>
+<body>
+<nav>
+    <a href="#" class="nav-logo">
+        <img src="../../assets/images/LogoSite.png">
+    </a>
+    <ul id="Navbarul">
+        <li><a href="#" class="nav-link"><i class="fas fa-play-circle nav-icon"></i> Jouer</a></li>
+        <li><a href="#" class="nav-link"><i class="fas fa-info-circle nav-icon"></i> Statistiques</a></li>
+        <li><a href="#" class="nav-link"><i class="fas fa-question-circle nav-icon"></i> Comment jouer</a></li>
+        <li><a href="#" class="nav-link"><i class="fas fa-trophy nav-icon"></i> Classements</a></li>
+        <li><a href="#" class="nav-link"><i class="fas fa-shopping-cart nav-icon"></i> Boutique</a></li>
+        <li><a href="#" class="nav-link"><i class="fas fa-envelope nav-icon"></i> Contact</a></li>
+    </ul>
+
+    <div class="profile-icon">
+        <a href="#profile"><i class="fas fa-user-circle"></i></a>
+    </div>
+</nav>
+
+<h1 style="font-size: 60px; color: #dddddd" >Bienvenue</h1>
+<div class="main-container">
+
+    <section class="left">
+        <div class="ScoreJ">
+            <div class="score-container">
+                <h2 class="score-text">
+                    <span id="textScore"> Score : </span> <span id="ScoreValue">0</span> <i class="fas fa-coins"></i>
+                </h2>
+            </div>
+        </div>
+
+        <div class="cps">
+            <h2>Production :  <span id="ProductValue">0</span><i class="fas fa-coins"></i> /s. </h2>
+        </div>
+        <button class="click-btn">
+            <img src="../../assets/images/imageACliquer..png" alt="Cible de clic">
+        </button>
+    </section>
+
+    <section class="upgrades">
+        <h2>Améliorations</h2>
+        <div class="upgrade-item">
+            <div class="upgrade-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="upgrade-info">
+                <h3>Entrainement Personnel</h3>
+                <p>Permet d'acquérir 10<i style="font-size: 12px" class="fas fa-coins"></i> /s </p>
+                <p class="cssPoss"><strong>Posséder :</strong> <span class="Poss">0</span></p>
+                <button class="upgrade-btn">Acheter pour <span class="upgrade-cost">50</span> <i class="fas fa-coins"></i></button>
+            </div>
+        </div>
+
+        <div class="upgrade-item">
+            <div class="upgrade-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="upgrade-info">
+                <h3>Publicité virale</h3>
+                <p>Double votre production pendant 30 secondes</p>
+                <p class="cssPoss"><strong>Posséder :</strong> <span class="Poss">0</span></p>
+                <button class="upgrade-btn">Acheter pour <span class="upgrade-cost">10</span> <i class="fas fa-coins"></i></button>
+            </div>
+        </div>
+        <div class="upgrade-item">
+            <div class="upgrade-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="upgrade-info">
+                <h3>Publicité virale</h3>
+                <p>Double votre production pendant 30 secondes</p>
+                <p class="cssPoss"><strong>Posséder :</strong> <span class="Poss">0</span></p>
+                <button class="upgrade-btn">Acheter pour <span class="upgrade-cost">10</span> <i class="fas fa-coins"></i></button>
+            </div>
+        </div>
+        <div class="upgrade-item">
+            <div class="upgrade-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="upgrade-info">
+                <h3>Publicité virale</h3>
+                <p>Double votre production pendant 30 secondes</p>
+                <p class="cssPoss"><strong>Posséder :</strong> <span class="Posseder">0</span></p>
+                <button class="upgrade-btn">Acheter pour <span class="upgrade-cost">10</span> <i class="fas fa-coins"></i></button>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+<div class="Notification"></div>
+<script src="../js/app.js" defer></script>
+<script src="../js/function.js" defer></script>
+</body>
+</html>
